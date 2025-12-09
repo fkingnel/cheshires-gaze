@@ -1,5 +1,8 @@
 # cheshires-gaze
 
+TO DO:
+- HOST ON RENDER
+
 | Query Parameter | Type   | Default        | Description                                                                                  | Example                                                                        |
 | --------------- | ------ | -------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | `username`      | string | `""`           | The username associated with the badge counter.                                              | `fkingnel`                                                                     |
