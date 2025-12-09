@@ -1,5 +1,15 @@
 # cheshires-gaze
 
+
+## preview
+<img src='https://github.com/fkingnel/cheshires-gaze/blob/main/gallery/chesiresgazepreview.PNG?raw=true'>
+
+Chashire's Gaze Badge System
+
+Chashire's Gaze is a dynamic badge generator that allows users to create badges with customizable labels, icons, logos, text, and view counters. Each badge has a secure counter that increments on every view. You can also optionally display counts in Roman numerals.
+
+Badges are fully customizable via URL query parameters.
+
 TO DO:
 - HOST ON RENDER
 
