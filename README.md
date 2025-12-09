@@ -22,8 +22,8 @@ Harness the magic via URL query parameters.
 | --------------- | ------ | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | `username`      | string | The username associated with the badge counter. Optional if you do not want use the tracking feature                                                                    | `&username=fkingnel`                                                                                              |
 | `key`           | string | The secret key for the user/profile to increment/view the count. Optional if you do not want use the tracking feature                                                    | `&key=XXXXXXXXXXXXXXXX`                                                                                           |
-| `leftItems`     | string | Comma-separated sequence for the left label. Can include **icons** (`heart:solid`), **logos** (image URLs), **text**, and `{count}` for dynamic counter placement. | `&leftItems=knife:custom,{count},https://avatars.githubusercontent.com/u/69657658?v=4,hi`                        |
-| `rightItems`    | string | Comma-separated sequence for the right label. Same as `leftItems`. Supports icons, logos, text, and `{count}`.       | `&rightItems=star:regular,{count},https://avatars.githubusercontent.com/u/69657658?v=4,viewers`                   |
+| `leftItems`     | string | Comma-separated sequence for the left label. Can include **icons** (`heart:solid`), **logos** (image URLs), **text**, and `{count}` for dynamic counter placement. | `&leftItems=knife:custom,github:brands,{count},https://avatars.githubusercontent.com/u/69657658?v=4,hi`                        |
+| `rightItems`    | string | Comma-separated sequence for the right label. Same as `leftItems`. Supports icons, logos, text, and `{count}`.       | `&rightItems=star:regular,heart:solid,{count},https://avatars.githubusercontent.com/u/69657658?v=4,viewers`                   |
 | `height`        | number | Height of the badge in pixels.                                                                                        | `&height=28`                                                                                                      |
 | `labelColors`   | string | Comma-separated colors for left and right labels. Can use named colors or hex codes.                                  | `&labelColors=black,grey`                                                                                         |
 | `leftLink`      | string | URL the left label links to.                                                                                          | `&leftLink=https://github.com/fkingnel/`                                                                         |
@@ -36,7 +36,7 @@ Harness the magic via URL query parameters.
 
 Cheshire’s Gaze supports **over 2,000 Font Awesome icons** from the free **Brands** and **Classic** collections. You can use them in your badge via the `leftItems` or `rightItems` query parameters.
 
-- **Usage examples:** `heart:solid`, `star:regular`, `knife:custom`, etc.
+- **Usage examples:** `heart:solid`, `star:regular`, `knife:custom`, `github:brands` etc.
 - **Custom Icons:** You can also include custom icons by adding them to the `utils/icons` folder. Currently, only a few custom icons are available, but more can be added over time.
 
 Browse available Font Awesome icons here: [Font Awesome Free Brands & Classic](https://fontawesome.com/search?ip=brands%2Cclassic&ic=free-collection)
