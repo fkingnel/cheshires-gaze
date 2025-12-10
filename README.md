@@ -11,6 +11,7 @@ Harness the magic via URL query parameters.
 
 ## EARLY METRICS INTEGRATION DEMO
 <img src='https://github.com/fkingnel/cheshires-gaze/blob/main/gallery/chesiresgazepreviewmetrics.PNG?raw=true'>
+
 ## PROJECT IS STILL WORK IN PROGRESS AND NOT COMPLETED
 
 TO DO:
